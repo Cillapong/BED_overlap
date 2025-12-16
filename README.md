@@ -288,9 +288,9 @@ Ad-hoc Unix pipelines are powerful and flexible, and you may need them for some 
 ## Group Project ideas
 
 Take this further in some way or ways (remember: chief marking criteria for group project is the reproducibility):
-- Do the oposite of "overlap." Find the uniqe indels between populations.
-- Characterse the unique or overlapping indels further (beyond counts, maybe size, or chromosomal locations).
-- Statistical: Are some chromosomes (X, 2, 3) enriched for proportionally more indels, unique indels and/or overlapping indels, than expected by chance? 
+- **Unique indels:** Do the oposite of "overlap." Find the uniqe indels between populations.
+- **Characterse:** the unique or overlapping indels further (beyond counts, maybe size, or chromosomal locations).
+- **Statistical:** Are some chromosomes (X, 2, 3) enriched for proportionally more indels, unique indels and/or overlapping indels, than expected by chance? 
 
 ---
 
