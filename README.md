@@ -75,13 +75,13 @@ Then download these files to your local `BED_overlap/` directory using `scp` (se
 ```bash
 cd /<where_you_want_them/>
 # `scp` is secure copy protocol, and allows you to `cp` between HPC and local workspaces:
-scp abc12xyz@hali.uea.ac.uk:~/<where_you_have_them/DPure_indels_mask.bed <local_directory_name>
+scp abc12xyz@hali.uea.ac.uk:~/<where_you_have_them>/DPure_indels_mask.bed <local_directory_name>
 # And enter your UEA HPC password when prompted,
 # Wait for download to complete before closing shell.
 # Do the same for the other file:
-scp abc12xyz@hali.uea.ac.uk:~/<where_you_have_them/LPure_indels_mask.bed <local_directory_name>
+scp abc12xyz@hali.uea.ac.uk:~/<where_you_have_them>/LPure_indels_mask.bed <local_directory_name>
 # or if you want to get them both in one go you need to mask the wild care "*" with ' ' quotes:
-scp 'abc12xyz@hali.uea.ac.uk:~/<where_you_have_them/*.bed' <local_directory_name>
+scp 'abc12xyz@hali.uea.ac.uk:~/<where_you_have_them>/*.bed' <local_directory_name>
 ```
 
 ---
