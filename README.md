@@ -80,7 +80,7 @@ scp abc12xyz@hali.uea.ac.uk:~/<where_you_have_them>/DPure_indels_mask.bed <local
 # Wait for download to complete before closing shell.
 # Do the same for the other file:
 scp abc12xyz@hali.uea.ac.uk:~/<where_you_have_them>/LPure_indels_mask.bed <local_directory_name>
-# or if you want to get them both in one go you need to mask the wild care "*" with ' ' quotes:
+# or if you want to get them both in one go you need to mask the wild card "*" with ' ' quotes:
 scp 'abc12xyz@hali.uea.ac.uk:~/<where_you_have_them>/*.bed' <local_directory_name>
 ```
 
