@@ -8,7 +8,7 @@
 #SBATCH -o /gpfs/home/abc12xyz/scratch/BED_overlap/Output_Messages/%x-%j.out   # TODO: set your path
 #SBATCH -e /gpfs/home/abc12xyz/scratch/BED_overlap/Error_Messages/%x-%j.err    # TODO: set your path
 #SBATCH --mail-type=END,FAIL
-#SBATCH --mail-user=abc12xyz@uea.ac.uk  # TODO: set to your UEA email
+#SBATCH --mail-user=muf25ecu@uea.ac.uk  
 
 # --- Modules ---
 module load bedtools
