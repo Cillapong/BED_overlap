@@ -5,8 +5,8 @@
 #SBATCH --mem=4G
 #SBATCH --cpus-per-task=2
 #SBATCH --job-name=BED_overlap
-#SBATCH -o /gpfs/home/abc12xyz/scratch/BED_overlap/Output_Messages/%x-%j.out   # TODO: set your path
-#SBATCH -e /gpfs/home/abc12xyz/scratch/BED_overlap/Error_Messages/%x-%j.err    # TODO: set your path
+#SBATCH -o /gpfs/home/muf25ecu/scratch/BED_overlap/Output_Messages/%x-%j.out   # TODO: set your path
+#SBATCH -e /gpfs/home/muf25ecu/scratch/BED_overlap/Error_Messages/%x-%j.err    # TODO: set your path
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=muf25ecu@uea.ac.uk  
 
@@ -14,11 +14,11 @@
 module load bedtools
 
 # --- Inputs (TODO: update to your paths from Step 1) ---
-file1="/gpfs/home/abc12xyz/scratch/BED_overlap/DPure_indels_mask.bed"
-file2="/gpfs/home/abc12xyz/scratch/BED_overlap/LPure_indels_mask.bed"
+file1="/gpfs/home/muf25ecu/scratch/BED_overlap/DPure_indels_mask.bed"
+file2="/gpfs/home/muf25ecu/scratch/BED_overlap/LPure_indels_mask.bed"
 
 # --- Outputs (TODO: ensure this exists) ---
-output_dir="/gpfs/home/abc12xyz/scratch/BED_overlap/output"
+output_dir="/gpfs/home/muf25ecu/scratch/BED_overlap/output"
 mkdir -p "$output_dir"
 
 # --- 1) Sort inputs (recommended for bedtools) ---
